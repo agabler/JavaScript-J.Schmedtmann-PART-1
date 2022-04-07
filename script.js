@@ -34,7 +34,7 @@ console.log(typeof null);*/
 
 
 
-const now = 2037;
+/*const now = 2037;
 const ageJonas = now - 1991;
 const ageAngelika = now - 1988;
 
@@ -48,7 +48,8 @@ console.log(firstName + ' ' + lastName);
 
 let x = 10 + 5;
 x += 10;
-console.log(x);
+console.log(x);*/
+
 
 
 
