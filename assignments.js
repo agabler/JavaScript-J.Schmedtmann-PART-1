@@ -51,7 +51,7 @@ console.log(descriptionNew);
 
 
 
-/*************************Coding Challenge #1 */
+/*******************************************Coding Challenge #1
 
 let massMark = 78;
 let heightMark = 1.69;
@@ -70,8 +70,9 @@ const markHigherBmi = bmiMark > bmiJohn;
 
 console.log(bmiMark > bmiJohn); //true
 console.log(markHigherBmi); // true
+*/
 
-/*************************Coding Challenge #2 */
+/*******************************************Coding Challenge #2
 
 if(bmiMark > bmiJohn){
     console.log('Marks BMI is higher than Johns');
@@ -81,7 +82,92 @@ if(bmiMark > bmiJohn){
 
 }
 
+*/
 
+/*******************************************Coding Challenge #3
+
+const scoreOneDolphins = 96;  //or: scoreDolphins = ()
+const scoreTwoDolphins = 108;
+const scoreThreeDolphins = 89;
+
+console.log((scoreOneDolphins + scoreTwoDolphins + scoreThreeDolphins) / 3);  //97,66
+
+const scoreOneKoalas = 88;
+const scoreTwoKoalas = 91;
+const scoreThreeKoalas = 110;
+
+console.log((scoreOneKoalas + scoreTwoKoalas + scoreThreeKoalas) / 3);   //96,33
+
+const averageScoreDolphins = 97.66;
+const averageScoreKoalas = 96.33;
+
+if(averageScoreDolphins > averageScoreKoalas){
+    console.log('Dolphins is the winner');
+} else if (averageScoreKoalas > averageScoreDolphins){
+    console.log('Koalas is the winner');            
+} else if(averageScoreDolphins === averageScoreKoalas){
+    console.log('There is a draw');
+}
+
+
+const thereIsDraw = false;
+
+if(thereIsDraw && minimumScoreDolphins){
+    console.log('Dolphins is the winner');
+} else{
+    console.log("Dolphins isn't the winner");
+}
+
+
+if(thereIsDraw && minimumScoreKoalas){
+    console.log('Koalas is the winner');
+} else{
+    console.log("Koalas isn't the winner");
+}
+
+
+
+
+const minimumScore = 100;
+const minimumScoreDolphins = false;
+const hasHigherScoreThanKoalas = true;
+
+if(minimumScoreDolphins && hasHigherScoreThanKoalas){
+    console.log('Dolphins wins');
+} else{
+    console.log("Dolphins don`t win");
+}
+
+const minimumScoreKoalas = false;
+const hasHigherScoreThanDolphins = false;
+
+if(minimumScoreKoalas && hasHigherScoreThanDolphins){
+    console.log('Koalas wins');
+} else{
+    console.log("Koalas don't win");
+}
+
+
+*/
+
+
+
+
+/*******************************************Coding Challenge #4
+
+const billValue = 275;
+const tip = billValue >= 50 && billValue <= 300 ? '0.15' : '0.20';
+
+console.log(tip);
+
+const tipAmount = tip * billValue;
+console.log(tipAmount);
+
+const totalAmount= billValue + tipAmount;
+
+console.log(`The bill was ${billValue}, the tip was ${tipAmount} and the total value ${totalAmount}`);
+
+*/
 
 
 
