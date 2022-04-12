@@ -50,7 +50,7 @@ console.log(descriptionNew);
 
 
 
-
+/*PART 1*/
 /*******************************************Coding Challenge #1
 
 let massMark = 78;
@@ -174,6 +174,38 @@ console.log(`The bill was ${billValue}, the tip was ${tipAmount} and the total v
 
 
 
+/*PART 2*/
+/*******************************************Coding Challenge #2
+
+
+const billValue = 275;
+const tip = billValue >= 50 && billValue <= 300 ? '0.15' : '0.20';
+
+console.log(tip);
+
+const tipAmount = tip * billValue;
+console.log(tipAmount);
+
+const totalAmount= billValue + tipAmount;
+
+console.log(`The bill was ${billValue}, the tip was ${tipAmount} and the total value ${totalAmount}`);*/
+
+
+
+function callTip(billValue){
+    const tip = billValue >= 50 && billValue <= 300 ? '0.15' : '0.20';
+    const tipValue = tip * billValue;
+    return tipValue;
+}
+
+const tip1 = callTip(100);
+console.log(tip1);    //15
+
+
+const bills = [125, 555, 44];
+const tips = [callTip(bills[0]), callTip(bills[1]), callTip(bills[2])];
+const total = [(bills[0] + tips[0]), (bills[1] + tips[1]), (bills[2] + tips[2])];
+console.log(total);               //(3) [143.75, 666, 52.8]
 
 
 
